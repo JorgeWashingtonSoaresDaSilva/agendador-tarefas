@@ -1,4 +1,4 @@
-package com.com.jwss.studio.agendadortarefas;
+package agendadortarefas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
