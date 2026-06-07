@@ -1,15 +1,19 @@
-package agendadortarefas.infrastruture.security.client;
+package com.jwss.studio.agendadortarefas.infrastruture.security.client;
 
 
-import agendadortarefas.infrastruture.business.dto.UsuarioDTO;
+import com.jwss.studio.agendadortarefas.business.dto.UsuarioDTO;
 import org.springframework.cloud.openfeign.FeignClient;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(name = "usuario", url = "${usuario.url}")
+
 public interface UsuarioClient {
-    @GetMapping
+
+
+    @GetMapping("/usuario")
     UsuarioDTO buscaUsuarioPorEmail(@RequestParam("email") String email,
                                     @RequestHeader("Authorization") String token);
 
