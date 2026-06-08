@@ -1,4 +1,4 @@
-package agendadortarefas.infrastruture.security;
+package com.jwss.studio.agendadortarefas.infrastruture.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

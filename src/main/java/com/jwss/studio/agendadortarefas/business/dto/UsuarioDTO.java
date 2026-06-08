@@ -1,4 +1,4 @@
-package agendadortarefas.infrastruture.business.dto;
+package com.jwss.studio.agendadortarefas.business.dto;
 
 import lombok.*;
 

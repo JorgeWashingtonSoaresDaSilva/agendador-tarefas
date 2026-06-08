@@ -1,4 +1,4 @@
-package com.com.jwss.studio.agendadortarefas;
+package com.jwss.studio.agendadortarefas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
